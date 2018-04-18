@@ -1,0 +1,1 @@
+Menu planner is a personal project to make my family life easier!
