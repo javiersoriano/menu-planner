@@ -2,20 +2,22 @@
 
 <html>
     <head>
-        <h1> Menu Generator page</h1>
+        <title>Menu Generator page</title>
+        <h1>Menu Generator page</h1>
     </head>
     <hr>
     <br>
     <br>
     <body>
         <p>Enter the parameters of the weekly menu that you desire</p>
-         
-        <p>Menu name: <input type="text" placeholder="Enter a name"/></p>
-        <p>Days with fish: <input type="number" placeholder="0" size=2/></p>
-        <p>Days with meat: <input type="number" placeholder="0" size=2/></p>
-        <p>Days with veggeatbles: <input type="number" placeholder="0" size=2/></p>
-        <p>Include weekend lunch: <form><input type="radio" placeholder="0" value="yes"/>Yes<input type="radio" placeholder="0" value="no"/>No</form></p>
-
+        <form> 
+            <p>Menu name: <input type="text" name="menu-name" placeholder="Enter a name"/></p>
+            <p>Days with fish: <input type="number" name="fish-days" placeholder="0" size=2/></p>
+            <p>Days with meat: <input type="number" name="meat-days" placeholder="0" size=2/></p>
+            <p>Days with veggetables: <input type="number" name="veggie-days" placeholder="0" size=2/></p>
+            <p>Include weekend: <input type="radio" name="weekend" value="yes" checked/>Yes<input type="radio" name="weekend" value="no"/>No</p>
+            <input type="submit">
+        </form>
         <p><img src="images\food.jpg"></p>
     </body>
 </html>
